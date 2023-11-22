@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TerrainDef Name="AProps_FloorBase" Abstract="True">
+		<layerable>true</layerable>
+		<affordances>
+			<li>Light</li>
+			
+		</affordances>
+		<tags>
+			<li>Floor</li>
+		</tags>
+		<fertility>0</fertility>
+		<constructEffect>ConstructDirt</constructEffect>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughLinearBurn</pollutionShaderType>
+		<pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath>
+		<pollutionColor>(1, 1, 1, 0.8)</pollutionColor>
+		<pollutionOverlayScale>(0.75, 0.75)</pollutionOverlayScale>
+		<designationCategory>Floors</designationCategory>
+		  <edgeType>FadeRough</edgeType>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="AProps_FloorBase">
+		<defName>AP_CheckeredLawn</defName>
+		<label>checkered lawn</label>
+		<renderPrecedence>230</renderPrecedence>
+		<description>todo.</description>
+		<texturePath>Terrain/Surfaces/AP_CheckeredLawn</texturePath>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+		</statBases>
+		<designationHotKey>Misc5</designationHotKey>
+	</TerrainDef>
+	<TerrainDef ParentName="AProps_FloorBase">
+		<defName>AP_CircularLawn</defName>
+		<label>circular lawn</label>
+		<renderPrecedence>230</renderPrecedence>
+		<description>todo.</description>
+		<texturePath>Terrain/Surfaces/AP_CircularLawn</texturePath>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+		</statBases>
+		<designationHotKey>Misc5</designationHotKey>
+	</TerrainDef>
+	<TerrainDef ParentName="WaterBase">
+		<defName>AP_Puddle</defName>
+		<label>puddle water</label>
+		<renderPrecedence>230</renderPrecedence>
+		<description>todo.</description>
+		<texturePath>Terrain/Surfaces/AP_Puddle</texturePath>
+		<waterDepthShader>Map/WaterDepth</waterDepthShader>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+		</statBases>
+		<designationHotKey>Misc5</designationHotKey>
+		<designationCategory>Floors</designationCategory>
+	</TerrainDef>
+	<TerrainDef ParentName="AProps_FloorBase">
+		<defName>AP_ZenSand</defName>
+		<label>zen sand</label>
+		<renderPrecedence>230</renderPrecedence>
+		<description>todo.</description>
+		<texturePath>Terrain/Surfaces/AP_ZenSand</texturePath>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+		</statBases>
+		<designationHotKey>Misc5</designationHotKey>
+	</TerrainDef>
+</Defs>

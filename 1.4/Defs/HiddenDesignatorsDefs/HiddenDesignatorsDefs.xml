@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<VFEProps.HiddenDesignatorsDef>
+		<defName>AProps_HiddenDesignators</defName>
+		<hiddenDesignators>			
+			
+			<li>AP_CheckeredLawn</li>
+			<li>AP_CircularLawn</li>
+			<li>AP_Puddle</li>
+			<li>AP_ZenSand</li>
+			
+			
+		</hiddenDesignators>							
+	</VFEProps.HiddenDesignatorsDef>
+
+
+
+
+
+</Defs>

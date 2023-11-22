@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Power_18</defName>
+		<category>VFE_PropCategory_Power</category>
+		<priority>18</priority>
+		<prop>AP_ExhaustTower</prop>
+	</VFEProps.PropDef>
+	
+</Defs>

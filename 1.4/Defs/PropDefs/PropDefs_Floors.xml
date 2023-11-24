@@ -19,12 +19,18 @@
 		<defName>AP_Prop_Floors_3</defName>
 		<category>AP_PropCategory_Floors</category>
 		<priority>3</priority>
-		<prop>AP_Puddle</prop>
+		<prop>AP_Pool</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef ParentName="AP_FloorPropBase">
 		<defName>AP_Prop_Floors_4</defName>
 		<category>AP_PropCategory_Floors</category>
 		<priority>4</priority>
+		<prop>AP_PoolBorderTiles</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="AP_FloorPropBase">
+		<defName>AP_Prop_Floors_5</defName>
+		<category>AP_PropCategory_Floors</category>
+		<priority>5</priority>
 		<prop>AP_ZenSand</prop>
 	</VFEProps.PropDef>
 	

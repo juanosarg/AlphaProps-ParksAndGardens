@@ -7,7 +7,8 @@
 			
 			<li>AP_CheckeredLawn</li>
 			<li>AP_CircularLawn</li>
-			<li>AP_Puddle</li>
+			<li>AP_Pool</li>
+			<li>AP_PoolBorderTiles</li>
 			<li>AP_ZenSand</li>
 			
 			

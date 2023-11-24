@@ -4,7 +4,6 @@
 		<layerable>true</layerable>
 		<affordances>
 			<li>Light</li>
-			
 		</affordances>
 		<tags>
 			<li>Floor</li>
@@ -17,9 +16,35 @@
 		<pollutionColor>(1, 1, 1, 0.8)</pollutionColor>
 		<pollutionOverlayScale>(0.75, 0.75)</pollutionOverlayScale>
 		<designationCategory>Floors</designationCategory>
-		  <edgeType>FadeRough</edgeType>
+		<edgeType>FadeRough</edgeType>
 	</TerrainDef>
-	
+	<TerrainDef Abstract="True" Name="AProps_ShallowWaterBase">
+		
+		<fertility>0</fertility>		
+		<holdSnow>false</holdSnow>
+		<takeSplashes>true</takeSplashes>
+		<extinguishesFire>true</extinguishesFire>
+		<extraDeteriorationFactor>2</extraDeteriorationFactor>
+		<traversedThought>SoakingWet</traversedThought>
+		<pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainWaterPolluted</pollutionShaderType>
+		<pollutionOverlayTexturePath>Terrain/Surfaces/MarshPollutionOverlay</pollutionOverlayTexturePath>
+		<filthAcceptanceMask>
+			<li>None</li>
+		</filthAcceptanceMask>
+		<tags>
+			<li>AP_Water</li>
+		</tags>
+		<tools>
+			<li>
+				<label>water</label>
+				<capacities>
+					<li>KickMaterialInEyes</li>
+				</capacities>
+				<hediff>WaterInEyes</hediff>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
+	</TerrainDef>
 	<TerrainDef ParentName="AProps_FloorBase">
 		<defName>AP_CheckeredLawn</defName>
 		<label>checkered lawn</label>
@@ -42,11 +67,12 @@
 		</statBases>
 		<designationHotKey>Misc5</designationHotKey>
 	</TerrainDef>
-	<TerrainDef ParentName="WaterBase">
-		<defName>AP_Puddle</defName>
-		<label>puddle water</label>
+	<TerrainDef ParentName="AProps_ShallowWaterBase">
+		<defName>AP_Pool</defName>
+		<label>natural pool water</label>
+		<edgeType>Water</edgeType>
 		<renderPrecedence>230</renderPrecedence>
-		<description>todo.</description>
+		<description>Very shallow water that doesn't impede movement. Used to create decorative pools and fountains.</description>
 		<texturePath>Terrain/Surfaces/AP_Puddle</texturePath>
 		<waterDepthShader>Map/WaterDepth</waterDepthShader>
 		<statBases>
@@ -54,6 +80,18 @@
 		</statBases>
 		<designationHotKey>Misc5</designationHotKey>
 		<designationCategory>Floors</designationCategory>
+	</TerrainDef>
+	<TerrainDef ParentName="AProps_FloorBase">
+		<defName>AP_PoolBorderTiles</defName>
+		<label>pool border</label>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>230</renderPrecedence>
+		<description>todo.</description>
+		<texturePath>Terrain/Surfaces/AP_PoolBorderTiles</texturePath>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+		</statBases>
+		<designationHotKey>Misc5</designationHotKey>
 	</TerrainDef>
 	<TerrainDef ParentName="AProps_FloorBase">
 		<defName>AP_ZenSand</defName>

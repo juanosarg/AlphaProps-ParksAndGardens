@@ -3,7 +3,7 @@ using RimWorld;
 using System.Reflection;
 using Verse;
 
-namespace VFEProps
+namespace AlphaProps
 {
     //Setting the Harmony instance
     [StaticConstructorOnStartup]
@@ -11,7 +11,7 @@ namespace VFEProps
     {
         static Main()
         {
-            var harmony = new Harmony("com.VFEProps");
+            var harmony = new Harmony("com.AlphaProps");
             harmony.PatchAll(Assembly.GetExecutingAssembly());       
         }          
     }

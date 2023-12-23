@@ -7,8 +7,8 @@
     <ProjectGuid>{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>VFEProps</RootNamespace>
-    <AssemblyName>VFEProps</AssemblyName>
+    <RootNamespace>AlphaProps</RootNamespace>
+    <AssemblyName>AlphaProps</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -289,37 +289,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Building\Building_NotifyColorChanged.cs" />
-    <Compile Include="Building\Building_VehicleWithTurret.cs" />
-    <Compile Include="Building\Building_FakeSteamGeyser.cs" />
-    <Compile Include="Building\Building_SubstractsSilver.cs" />
-    <Compile Include="Comps\CompAttachEffecter.cs" />
-    <Compile Include="Comps\CompConstantFireOverlay.cs" />
-    <Compile Include="Comps\CompMoteReleaser.cs" />
-    <Compile Include="Comps\Properties\CompProperties_AttachEffecter.cs" />
-    <Compile Include="Comps\Properties\CompProperties_ConstantFireOverlay.cs" />
-    <Compile Include="Comps\Properties\CompProperties_MoteReleaser.cs" />
-    <Compile Include="DefExtensions\DrawTurretExtension.cs" />
     <Compile Include="DefOfs\InternalDefOf.cs" />
-    <Compile Include="Defs\HiddenDesignatorsDef.cs" />
-    <Compile Include="Defs\PropCategoryDef.cs" />
-    <Compile Include="Defs\PropDef.cs" />
-    <Compile Include="Defs\TurretRotationDef.cs" />
-    <Compile Include="Designators\Designator_Props.cs" />
-    <Compile Include="Harmony\Designator_Build_DrawPlaceMouseAttachments.cs" />
-    <Compile Include="Harmony\GenLeaving_GetBuildingResourcesLeaveCalculator.cs" />
-    <Compile Include="Harmony\Graphic_Cluster_DrawWorker.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
-    <Compile Include="Harmony\DesignationCategoryDef_ResolvedAllowedDesignators.cs" />
-    <Compile Include="Harmony\ThingUtility_CheckAutoRebuildOnDestroyed.cs" />
-    <Compile Include="Options\SettingsHelper.cs" />
-    <Compile Include="Options\VFEProps_Settings.cs" />
-    <Compile Include="Options\VFEProps_SettingsController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StaticCollections\StaticCollections.cs" />
-    <Compile Include="Utils\Utils.cs" />
-    <Compile Include="Windows and Dialogs\Window_PropsCategories.cs" />
-    <Compile Include="Windows and Dialogs\Window_PropsListing.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Lib.Harmony">

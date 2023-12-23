@@ -3,7 +3,7 @@ using RimWorld;
 using Verse;
 
 
-namespace VFEProps
+namespace AlphaProps
 {
     [DefOf]
     public static class InternalDefOf

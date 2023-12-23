@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<VFEProps.PropDef ParentName="VFE_EffecterPropBase">
+		<defName>AP_Prop_Effecter_WaterSprout</defName>
+		<category>VFE_PropCategory_Effecters</category>		
+		<priority>5000</priority>
+		<prop>AP_WaterSprout_Object</prop>
+		
+	</VFEProps.PropDef>
+	
+	
+</Defs>

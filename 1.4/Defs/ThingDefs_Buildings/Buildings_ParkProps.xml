@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>AP_RoundFountain</defName>
+		<label>round fountain</label>
+		<description>todo.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/AP_RoundFountain/AP_RoundFountain</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(4,4)</drawSize>
+			<shadowData>
+				<volume>(0.55, 0.30, 0.40)</volume>
+			</shadowData>
+			<color>(194,179,165)</color>
+			
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<tickerType>Normal</tickerType>
+	
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.5</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>50</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(2,2)</size>
+		
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<comps>
+			<li Class="CompProperties_FleckEmitter">
+				<fleck>AP_WaterSprout_FleckLarge</fleck>
+				<emissionInterval>60</emissionInterval>
+				<offset>(0,0,1)</offset>
+			</li>
+		</comps>
+	</ThingDef>
+	
+</Defs>

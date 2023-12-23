@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_1</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>100</priority>
+		<prop>AP_RoundFountain</prop>
+	</VFEProps.PropDef>
+	
+</Defs>

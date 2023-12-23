@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>AP_WaterSprout_Fleck</defName>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0</fadeInTime>
+		<solidTime>1</solidTime>
+		<fadeOutTime>0</fadeOutTime>
+		<graphicData>
+			<graphicClass>Graphic_FleckPulse</graphicClass>
+			<shaderType>TransparentAnimated</shaderType>
+			<texPath>Things/Mote/AP_WaterSproutAnimated</texPath>
+			<drawSize>2</drawSize>		
+			<shaderParameters>
+				<_NumFrames>6</_NumFrames>
+				<_FramesPerSec>6</_FramesPerSec>
+			</shaderParameters>
+		</graphicData>
+	</FleckDef>
+	<FleckDef ParentName="FleckBase_Thrown">
+		<defName>AP_WaterSprout_FleckLarge</defName>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<fadeInTime>0</fadeInTime>
+		<solidTime>1</solidTime>
+		<fadeOutTime>0</fadeOutTime>
+		<graphicData>
+			<graphicClass>Graphic_FleckPulse</graphicClass>
+			<shaderType>TransparentAnimated</shaderType>
+			<texPath>Things/Mote/AP_WaterSproutAnimated</texPath>
+			<drawSize>4</drawSize>			
+			<shaderParameters>
+				<_NumFrames>6</_NumFrames>
+				<_FramesPerSec>6</_FramesPerSec>
+			</shaderParameters>
+		</graphicData>
+	</FleckDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_WaterSprout_Object</defName>
+		<label>water sprout</label>
+		<description>This is a fleck prop for "Water Sprout". Intrinsically laggy, use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Mote/AP_WaterSprout_UI</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="CompProperties_FleckEmitter">
+				<fleck>AP_WaterSprout_Fleck</fleck>
+				<emissionInterval>60</emissionInterval>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_WaterSprout_Large_Object</defName>
+		<label>large water sprout</label>
+		<description>This is a fleck prop for "Large Water Sprout". Intrinsically laggy, use in moderation.</description>
+		<graphicData>
+			<texPath>Things/Building/ModCompat/Empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshOnly</drawerType>
+		<uiIconPath>Things/Mote/AP_WaterSprout_UI</uiIconPath>
+		<building>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="CompProperties_FleckEmitter">
+				<fleck>AP_WaterSprout_FleckLarge</fleck>
+				<emissionInterval>60</emissionInterval>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

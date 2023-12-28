@@ -115,12 +115,7 @@
 		<prop>AP_RandomRocksD</prop>
 	</VFEProps.PropDef>
 	
-	<VFEProps.PropDef>
-		<defName>AP_Prop_Park_TroughWithHay</defName>
-		<category>VFE_PropCategory_Park</category>
-		<priority>119</priority>
-		<prop>AP_TroughWithHay</prop>
-	</VFEProps.PropDef>
+	
 	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_DecorativeArch</defName>
 		<category>VFE_PropCategory_Park</category>

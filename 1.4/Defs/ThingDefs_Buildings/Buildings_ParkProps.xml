@@ -639,36 +639,7 @@
 		<clearBuildingArea>false</clearBuildingArea>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 	</ThingDef>
-	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
-		<defName>AP_TroughWithHay</defName>
-		<label>hay trough</label>
-		<description>A decorative hay trough.</description>
-		<graphicData>
-			<texPath>Things/Building/ParkProps/Furniture/AP_TroughWithHay</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-			<drawSize>2</drawSize>
-			 <color>(133,97,67)</color>
-		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<pathCost>42</pathCost>
-		<building>
-			<isEdifice>false</isEdifice>
-			<isInert>true</isInert>
-		</building>
-		<castEdgeShadows>false</castEdgeShadows>
-		<fillPercent>0</fillPercent>
-		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
-			<WorkToBuild>0</WorkToBuild>
-			<Mass>0.1</Mass>
-			<Flammability>0.1</Flammability>
-		</statBases>
-		<size>(1,1)</size>
-		<uiIconScale>1</uiIconScale>
-
-	</ThingDef>
+	
 	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_AP_DecorativeArch</defName>
 		<label>flower arch</label>

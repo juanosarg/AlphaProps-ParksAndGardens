@@ -417,6 +417,41 @@
 		<priority>167</priority>
 		<prop>AP_DecorativeTeaNettle</prop>
 	</VFEProps.PropDef>
-	
+	<VFEProps.PropDef ParentName="VFE_BorderPropBase">
+		<defName>VFE_Prop_Borders_StoneBorder_Straight</defName>
+		<category>VFE_PropCategory_Borders</category>
+		<priority>13</priority>
+		<prop>VFEPD_AP_StoneBorder_Straight</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="VFE_BorderPropBase">
+		<defName>VFE_Prop_Borders_StoneBorder_Corner</defName>
+		<category>VFE_PropCategory_Borders</category>
+		<priority>14</priority>
+		<prop>VFEPD_AP_StoneBorder_Corner</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_StonePath</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>168</priority>
+		<prop>VFEPD_AP_StonePath</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_PlanterShelves</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>169</priority>
+		<prop>AP_PlanterShelves</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_RusticBucket</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>170</priority>
+		<prop>AP_RusticBucket</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_BigLogsPlanter_Bush</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>171</priority>
+		<prop>VFEPD_AP_BigLogsPlanter_Bush</prop>
+	</VFEProps.PropDef>
 	
 </Defs>

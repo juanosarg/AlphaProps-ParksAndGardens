@@ -232,6 +232,7 @@
 			<drawSize>(1,1)</drawSize>
 			<shadowData>
 				<volume>(0.3, 0.30, 0.40)</volume>
+				<offset>(0, 0, -0.28)</offset>
 			</shadowData>
 			<color>(105,105,105)</color>
 		</graphicData>
@@ -262,6 +263,7 @@
 			<drawSize>(1,1)</drawSize>
 			<shadowData>
 				<volume>(0.3, 0.30, 0.40)</volume>
+				<offset>(0, 0, -0.28)</offset>
 			</shadowData>
 			<color>(105,105,105)</color>
 		</graphicData>
@@ -292,6 +294,7 @@
 			<drawSize>(1,1)</drawSize>
 			<shadowData>
 				<volume>(0.3, 0.30, 0.40)</volume>
+				<offset>(0, 0, -0.28)</offset>
 			</shadowData>
 			<color>(114,136,153)</color>
 		</graphicData>
@@ -322,6 +325,7 @@
 			<drawSize>(1,1)</drawSize>
 			<shadowData>
 				<volume>(0.3, 0.30, 0.40)</volume>
+				<offset>(0, 0, -0.28)</offset>
 			</shadowData>
 			<color>(132, 135, 132)</color>
 		</graphicData>
@@ -353,6 +357,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<shadowData>
 				<volume>(0.3, 0.30, 0.40)</volume>
+				<offset>(0, 0, -0.28)</offset>
 			</shadowData>
 			<color>(105,105,105)</color>
 		</graphicData>
@@ -383,6 +388,7 @@
 			<drawSize>(1,1)</drawSize>
 			<shadowData>
 				<volume>(0.3, 0.30, 0.40)</volume>
+				<offset>(0, 0, -0.28)</offset>
 			</shadowData>
 			<shaderType>CutoutComplex</shaderType>
 			<color>(226,190,69)</color>
@@ -648,7 +654,7 @@
 			<texPath>Things/Building/ParkProps/Furniture/VFEPD_AP_LamplightA</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>3</drawSize>
+			<drawSize>4</drawSize>
 			<color>(105,105,105)</color>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
@@ -677,7 +683,7 @@
 			<texPath>Things/Building/ParkProps/Furniture/VFEPD_AP_LamplightB</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>3</drawSize>
+			<drawSize>4</drawSize>
 			<color>(105,105,105)</color>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
@@ -1001,6 +1007,7 @@
 			<texPath>Things/Building/ParkProps/Flowers/AP_DecorativeForsakenFlower</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1.25,1.25)</drawSize>
+			<drawOffset>(0,0,0.4)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1030,6 +1037,7 @@
 			<texPath>Things/Building/ParkProps/Flowers/AP_DecorativeFungi</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1.25,1.25)</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1059,6 +1067,7 @@
 			<texPath>Things/Building/ParkProps/Flowers/AP_DecorativeMiniRafflesia</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1,1)</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1088,6 +1097,7 @@
 			<texPath>Things/Building/ParkProps/Flowers/AP_DecorativeTeaNettle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1.25,1.25)</drawSize>
+			<drawOffset>(0,0,0.4)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1119,6 +1129,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(237, 45, 135)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1150,6 +1161,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(154, 36, 125)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1181,6 +1193,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(224, 150, 173)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1212,6 +1225,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(181, 72, 70)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1243,6 +1257,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(120, 70, 155)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1274,6 +1289,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(159, 198, 233)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1305,6 +1321,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(229, 85, 37)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1336,6 +1353,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(100, 143, 202)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1367,6 +1385,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(220, 102, 132)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1398,6 +1417,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(192, 128, 138)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1429,6 +1449,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(182, 67, 152)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1460,6 +1481,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(237, 41, 131)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1491,6 +1513,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(175, 88, 162)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1522,6 +1545,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(113, 71, 156)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1553,6 +1577,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(234, 174, 97)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1584,6 +1609,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(247, 180, 204)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1615,6 +1641,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(166, 30, 34)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1646,6 +1673,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(74, 196, 211)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1677,6 +1705,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(92, 175, 225)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1708,6 +1737,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(250, 249, 249)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1739,6 +1769,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
 			<color>(204, 184, 45)</color>
+			<drawOffset>(0,0,-0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1770,6 +1801,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
 			<color>(185, 62, 108)</color>
+			<drawOffset>(0,0,-0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1801,6 +1833,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(193, 212, 237)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1832,6 +1865,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(237, 41, 131)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1863,6 +1897,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(139, 148, 194)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1894,6 +1929,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(212, 147, 142)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1925,6 +1961,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(214, 142, 189)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1956,6 +1993,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(88, 180, 226)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -1987,6 +2025,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(231, 220, 146)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -2018,6 +2057,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(239, 155, 164)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -2049,6 +2089,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(237, 160, 72)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -2079,6 +2120,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(186, 199, 230)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -2110,6 +2152,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(1.25,1.25)</drawSize>
 			<color>(154, 36, 125)</color>
+			<drawOffset>(0,0,0.2)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -2151,15 +2194,40 @@
 			<texPath>Things/Building/ParkProps/PathsAndBorders/VFEPD_AP_StoneBorderCorner</texPath>
 		</graphicData>
 	</ThingDef>
-	<ThingDef ParentName="DecalBase">
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_AP_StonePath</defName>
 		<label>stone path</label>
+		<description>A stone path for your parks.</description>
 		<graphicData>
 			<graphicClass>Graphic_Random</graphicClass>
-			<shaderType>Cutout</shaderType>
 			<texPath>Things/Building/ParkProps/PathsAndBorders/VFEPD_AP_StonePath</texPath>
 			<drawSize>(1,1)</drawSize>
+			<color>(132, 135, 132)</color>
 		</graphicData>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Floor</altitudeLayer>
+		<passability>Standable</passability>
+		<useHitPoints>false</useHitPoints>
+		<pathCost>0</pathCost>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+			<ai_neverTrashThis>true</ai_neverTrashThis>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<filthLeaving Inherit="False"/>
+		<clearBuildingArea>false</clearBuildingArea>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>AP_PlanterShelves</defName>
@@ -2234,7 +2302,6 @@
 			<shaderType>CutoutComplex</shaderType>
 			<shadowData>
 				<volume>(1, 1, 0.8)</volume>
-				
 			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
@@ -2252,5 +2319,1023 @@
 		<building>
 			<isInert>true</isInert>
 		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_BigLogsPlanter_Sand</defName>
+		<label>big log planter with sand</label>
+		<description>A planter made of wooden logs inserted on the ground, filled with sand.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/VFEPD_AP_BigLogsPlanter_Sand</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<color>(96,77,55)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(2,2)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_BigTilePlanter_Bush</defName>
+		<label>big tile planter with bush</label>
+		<description>A planter made of stone tiles, with a big bush inside.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/VFEPD_AP_BigTilePlanter_Bush</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<color>(132, 135, 132)</color>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1, 1, 0.8)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(2,2)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_BigTilePlanter_Sand</defName>
+		<label>big tile planter with sand</label>
+		<description>A planter made of stone tiles, filled with sand.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/VFEPD_AP_BigTilePlanter_Sand</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<color>(132, 135, 132)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(2,2)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_PlantPot</defName>
+		<label>plant pot</label>
+		<description>A simple plant pot to display decorative flowers.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/VFEPD_AP_PlantPot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(187,150,110)</color>
+			<shadowData>
+				<volume>(0.35, 0.35, 0.3)</volume>
+				<offset>(0, 0, -0.28)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.3</fillPercent>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_PlantPotSquare</defName>
+		<label>square plant pot</label>
+		<description>A simple square plant pot to display decorative flowers.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/VFEPD_AP_PlantPotSquare</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(187,150,110)</color>
+			<shadowData>
+				<volume>(0.35, 0.35, 0.3)</volume>
+				<offset>(0, 0, -0.28)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.3</fillPercent>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_SmallPlanterWithFakeFlowersA</defName>
+		<label>small log planter with flowers</label>
+		<description>A small planter made of wooden logs inserted on the ground, filled with flowers.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/VFEPD_AP_SmallPlanterWithFakeFlowersA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.25</drawSize>
+			<color>(96,77,55)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_SmallPlanterWithFakeFlowersB</defName>
+		<label>small log planter with flowers</label>
+		<description>A small planter made of wooden logs inserted on the ground, filled with flowers.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/VFEPD_AP_SmallPlanterWithFakeFlowersB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.25</drawSize>
+			<color>(96,77,55)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_SmallPlanterWithFakeFlowersC</defName>
+		<label>small log planter with flowers</label>
+		<description>A small planter made of wooden logs inserted on the ground, filled with flowers.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/VFEPD_AP_SmallPlanterWithFakeFlowersC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.25</drawSize>
+			<color>(96,77,55)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_SmallPlanterWithFakeFlowersD</defName>
+		<label>small log planter with flowers</label>
+		<description>A small planter made of wooden logs inserted on the ground, filled with flowers.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/VFEPD_AP_SmallPlanterWithFakeFlowersD</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.25</drawSize>
+			<color>(96,77,55)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_SmallLogsPlanter</defName>
+		<label>small log planter with sand</label>
+		<description>A small planter made of wooden logs inserted on the ground, filled with sand.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/VFEPD_AP_SmallLogsPlanter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+			<color>(96,77,55)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_SmallStonePlanter</defName>
+		<label>small stone planter with sand</label>
+		<description>A small planter made of rough stones, filled with sand.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/VFEPD_AP_SmallStonePlanter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+			<color>(132, 135, 132)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_SmallTilesPlanter</defName>
+		<label>small tile planter with sand</label>
+		<description>A small planter made of stone tiles, filled with sand.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/VFEPD_AP_SmallTilesPlanter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+			<color>(132, 135, 132)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_SmallWoodenPlanter</defName>
+		<label>small wooden planter with soil</label>
+		<description>A small planter made of wooden planks, filled with soil.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/VFEPD_AP_SmallWoodenPlanter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+			<color>(96,77,55)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_LogsPlanter</defName>
+		<label>wide log planter with grass</label>
+		<description>A planter made of wooden logs inserted on the ground, filled with sand.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/VFEPD_AP_LogsPlanter</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>3</drawSize>
+			<color>(96,77,55)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>true</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_SquarePlanter</defName>
+		<label>wide square planter</label>
+		<description>A wide square planter.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/VFEPD_AP_SquarePlanter</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>3</drawSize>
+			<color>(187,150,110)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>true</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_StonePlanterLong</defName>
+		<label>wide stone planter with sand</label>
+		<description>A planter made of rough stones, filled with sand.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/VFEPD_AP_StonePlanterLong</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>3</drawSize>
+			<color>(132, 135, 132)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>true</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_WoodenPlanter</defName>
+		<label>wide wooden planter with soil</label>
+		<description>A planter made of wood planks, filled with soil.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/VFEPD_AP_WoodenPlanter</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>3</drawSize>
+			<color>(96,77,55)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>true</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AP_PottedPlantA</defName>
+		<label>leafarium</label>
+		<description>A fake decorative potted green plant. Made of plastic, so it doesn't need any gardening maintenance.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Plants/VFEPD_AP_PottedPlantA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>3</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>15</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AP_PottedPlantB</defName>
+		<label>verdania</label>
+		<description>A fake decorative potted green plant. Made of plastic, so it doesn't need any gardening maintenance.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Plants/VFEPD_AP_PottedPlantB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>3</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>15</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AP_PottedPlantC</defName>
+		<label>potalyx</label>
+		<description>A fake decorative potted green plant. Made of plastic, so it doesn't need any gardening maintenance.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Plants/VFEPD_AP_PottedPlantC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>3</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>15</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AP_SmallBushA</defName>
+		<label>miniZen</label>
+		<description>A fake decorative potted bonsai-like plant. Made of plastic, so it doesn't need any gardening maintenance.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Plants/VFEPD_AP_SmallBushA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawOffset>(0,0,0.3)</drawOffset>
+			<drawSize>3</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>15</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AP_SmallBushB</defName>
+		<label>zenBloom</label>
+		<description>A fake decorative potted bonsai-like plant. Made of plastic, so it doesn't need any gardening maintenance.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Plants/VFEPD_AP_SmallBushB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>3</drawSize>
+			<drawOffset>(0,0,0.3)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>15</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_BulletTopiary</defName>
+		<label>bullet topiary</label>
+		<description>A fake decorative topiary shaped like a bullet. Made of plastic, so it doesn't need any gardening maintenance.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Topiaries/AP_BulletTopiary</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>3</drawSize>
+			
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_JorisTopiary</defName>
+		<label>joris topiary</label>
+		<description>A fake decorative topiary shaped like Joris. Made of plastic, so it doesn't need any gardening maintenance.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Topiaries/AP_JorisTopiary</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>3</drawSize>
+			
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_PoopTopiary</defName>
+		<label>poop topiary</label>
+		<description>A fake decorative topiary shaped like poop. Made of plastic, so it doesn't need any gardening maintenance.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Topiaries/AP_PoopTopiary</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>2</drawSize>
+			
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_SemisphericalTopiary</defName>
+		<label>semi-spherical topiary</label>
+		<description>A fake decorative topiary shaped like a semi-sphere. Made of plastic, so it doesn't need any gardening maintenance.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Topiaries/AP_SemisphericalTopiary</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>2</drawSize>
+			
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_SphericalTopiary</defName>
+		<label>spherical topiary</label>
+		<description>A fake decorative topiary shaped like a sphere. Made of plastic, so it doesn't need any gardening maintenance.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Topiaries/AP_SphericalTopiary</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>2</drawSize>
+			
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_SquareTopiary</defName>
+		<label>square topiary</label>
+		<description>A fake decorative square topiary. Made of plastic, so it doesn't need any gardening maintenance.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Topiaries/AP_SquareTopiary</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>3</drawSize>
+			
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<pathCost>50</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>AP_SubmergedLog</defName>
+		<label>submerged log</label>
+		<description>A decorative submerged log. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/WaterStuff/AP_SubmergedLog</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>3</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(96,77,55)</color>
+		</graphicData>
+		<terrainAffordanceNeeded/>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.25</fillPercent>
+		<pathCost>50</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_WaterLilyA</defName>
+		<label>water lily</label>
+		<description>A decorative water lily. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/WaterStuff/AP_WaterLilyA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>2.25</drawSize>
+			
+		</graphicData>
+		<terrainAffordanceNeeded/>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>15</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_WaterLilyB</defName>
+		<label>water lily</label>
+		<description>A decorative water lily. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/WaterStuff/AP_WaterLilyB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>2</drawSize>
+			
+		</graphicData>
+		<terrainAffordanceNeeded/>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>15</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_WaterLilyC</defName>
+		<label>water lily</label>
+		<description>A decorative water lily. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/WaterStuff/AP_WaterLilyC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>2</drawSize>
+			
+		</graphicData>
+		<terrainAffordanceNeeded/>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>15</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_WaterLilyD</defName>
+		<label>water lily</label>
+		<description>A decorative water lily. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/WaterStuff/AP_WaterLilyD</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.5</drawSize>
+			
+		</graphicData>
+		<terrainAffordanceNeeded/>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>15</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_WaterLilyE</defName>
+		<label>water lily</label>
+		<description>A decorative water lily. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/WaterStuff/AP_WaterLilyE</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.5</drawSize>
+			
+		</graphicData>
+		<terrainAffordanceNeeded/>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>15</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_WaterLilyF</defName>
+		<label>water lily</label>
+		<description>A decorative water lily. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/WaterStuff/AP_WaterLilyF</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.5</drawSize>
+			
+		</graphicData>
+		<terrainAffordanceNeeded/>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>15</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
 </Defs>

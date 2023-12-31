@@ -37,6 +37,12 @@
 		<prop>AP_ArabicFountain</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_ZenFountain</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>105.1</priority>
+		<prop>AP_ZenFountain</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_LoopBollard</defName>
 		<category>VFE_PropCategory_Park</category>
 		<priority>106</priority>
@@ -114,8 +120,6 @@
 		<priority>118</priority>
 		<prop>AP_RandomRocksD</prop>
 	</VFEProps.PropDef>
-	
-	
 	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_DecorativeArch</defName>
 		<category>VFE_PropCategory_Park</category>
@@ -133,6 +137,24 @@
 		<category>VFE_PropCategory_Park</category>
 		<priority>122</priority>
 		<prop>VFEPD_AP_LamplightB</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_LamplightC</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>122.1</priority>
+		<prop>VFEPD_AP_LamplightC</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_LamplightD</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>122.2</priority>
+		<prop>VFEPD_AP_LamplightD</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_LamplightE</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>122.3</priority>
+		<prop>VFEPD_AP_LamplightE</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_MantelpieceA</defName>
@@ -183,6 +205,12 @@
 		<prop>VFEPD_AP_ParkBench</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_SimpleParkBench</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>128.1</priority>
+		<prop>VFEPD_AP_SimpleParkBench</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_Slide</defName>
 		<category>VFE_PropCategory_Park</category>
 		<priority>129</priority>
@@ -193,6 +221,12 @@
 		<category>VFE_PropCategory_Park</category>
 		<priority>130</priority>
 		<prop>VFEPD_AP_WoodenBridge</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_WheelbarrowWithFlowers</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>130.1</priority>
+		<prop>AP_WheelbarrowWithFlowers</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_PlantA</defName>
@@ -254,7 +288,6 @@
 		<priority>140</priority>
 		<prop>AP_FlowerJ</prop>
 	</VFEProps.PropDef>
-	
 	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_PlantK</defName>
 		<category>VFE_PropCategory_Park</category>
@@ -393,7 +426,7 @@
 		<priority>163</priority>
 		<prop>VFEPD_AP_FakeFlowers</prop>
 	</VFEProps.PropDef>
-		<VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_Forsaken</defName>
 		<category>VFE_PropCategory_Park</category>
 		<priority>164</priority>
@@ -442,6 +475,24 @@
 		<prop>AP_PlanterShelves</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_PlanterShelvesB</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>169.1</priority>
+		<prop>AP_PlanterShelvesB</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_PlanterShelvesC</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>169.2</priority>
+		<prop>AP_PlanterShelvesC</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_PlanterShelvesD</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>169.3</priority>
+		<prop>AP_PlanterShelvesD</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_RusticBucket</defName>
 		<category>VFE_PropCategory_Park</category>
 		<priority>170</priority>
@@ -471,7 +522,6 @@
 		<priority>174</priority>
 		<prop>VFEPD_AP_BigTilePlanter_Sand</prop>
 	</VFEProps.PropDef>
-
 	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_PlantPot</defName>
 		<category>VFE_PropCategory_Park</category>
@@ -484,7 +534,6 @@
 		<priority>177</priority>
 		<prop>VFEPD_AP_PlantPotSquare</prop>
 	</VFEProps.PropDef>
-
 	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_SmallPlanterWithFakeFlowersA</defName>
 		<category>VFE_PropCategory_Park</category>
@@ -509,7 +558,7 @@
 		<priority>181</priority>
 		<prop>VFEPD_AP_SmallPlanterWithFakeFlowersD</prop>
 	</VFEProps.PropDef>
-		<VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_SmallLogsPlanter</defName>
 		<category>VFE_PropCategory_Park</category>
 		<priority>182</priority>
@@ -533,7 +582,13 @@
 		<priority>185</priority>
 		<prop>VFEPD_AP_SmallWoodenPlanter</prop>
 	</VFEProps.PropDef>
-		<VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_FlatTilesWithGrassPlanter</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>185.1</priority>
+		<prop>AP_FlatTilesWithGrassPlanter</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_LogsPlanter</defName>
 		<category>VFE_PropCategory_Park</category>
 		<priority>186</priority>
@@ -558,6 +613,12 @@
 		<prop>VFEPD_AP_WoodenPlanter</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_WideTilePlanter_Sand</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>189.1</priority>
+		<prop>VFEPD_AP_WideTilePlanter_Sand</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_PottedPlantA</defName>
 		<category>VFE_PropCategory_Park</category>
 		<priority>190</priority>
@@ -576,6 +637,24 @@
 		<prop>VFEPD_AP_PottedPlantC</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_PottedPlantD</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>192.1</priority>
+		<prop>VFEPD_AP_PottedPlantD</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_PottedPlantE</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>192.2</priority>
+		<prop>VFEPD_AP_PottedPlantE</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_PottedPlantF</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>192.3</priority>
+		<prop>VFEPD_AP_PottedPlantF</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_SmallBushA</defName>
 		<category>VFE_PropCategory_Park</category>
 		<priority>193</priority>
@@ -587,7 +666,6 @@
 		<priority>194</priority>
 		<prop>VFEPD_AP_SmallBushB</prop>
 	</VFEProps.PropDef>
-	
 	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_BulletTopiary</defName>
 		<category>VFE_PropCategory_Park</category>
@@ -665,5 +743,41 @@
 		<category>VFE_PropCategory_Park</category>
 		<priority>207</priority>
 		<prop>AP_WaterLilyF</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_WaterReed</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>208</priority>
+		<prop>AP_WaterReed</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_Pier</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>209</priority>
+		<prop>VFEPD_AP_Pier</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_WaterFountainA</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>210</priority>
+		<prop>AP_WaterFountainA</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_WaterFountainB</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>211</priority>
+		<prop>AP_WaterFountainB</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_WaterFountainC</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>212</priority>
+		<prop>AP_WaterFountainC</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_WaterFountainD</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>213</priority>
+		<prop>AP_WaterFountainD</prop>
 	</VFEProps.PropDef>
 </Defs>

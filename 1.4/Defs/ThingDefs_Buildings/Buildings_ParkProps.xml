@@ -3,7 +3,7 @@
 	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>AP_RoundFountain</defName>
 		<label>round fountain</label>
-		<description>todo.</description>
+		<description>An ornamental water feature designed to enhance aesthetic appeal in gardens and public spaces.</description>
 		<graphicData>
 			<texPath>Things/Building/ParkProps/Fountains/AP_RoundFountain/AP_RoundFountain</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -13,9 +13,11 @@
 				<volume>(1.5, 1.5, 1)</volume>
 			</shadowData>
 			<color>(194,179,165)</color>
+			
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<tickerType>Normal</tickerType>
+	
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 		<fillPercent>0.5</fillPercent>
@@ -27,6 +29,7 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(2,2)</size>
+		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -41,7 +44,7 @@
 	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>AP_SquareFountain</defName>
 		<label>square fountain</label>
-		<description>todo.</description>
+		<description>An ornamental water feature designed to enhance aesthetic appeal in gardens and public spaces.</description>
 		<graphicData>
 			<texPath>Things/Building/ParkProps/Fountains/AP_SquareFountain/AP_SquareFountain</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -51,9 +54,11 @@
 				<volume>(1.5, 1.5, 1)</volume>
 			</shadowData>
 			<color>(132, 84, 72)</color>
+			
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<tickerType>Normal</tickerType>
+	
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 		<fillPercent>0.5</fillPercent>
@@ -65,6 +70,7 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(2,2)</size>
+		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -79,7 +85,7 @@
 	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>AP_ObeliskFountain</defName>
 		<label>obelisk fountain</label>
-		<description>todo.</description>
+		<description>An ornamental water feature designed to enhance aesthetic appeal in gardens and public spaces.</description>
 		<graphicData>
 			<texPath>Things/Building/ParkProps/Fountains/AP_ObeliskFountain/AP_ObeliskFountain</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -89,8 +95,10 @@
 				<volume>(1.5, 1.5, 1)</volume>
 			</shadowData>
 			<color>(60, 60, 60)</color>
+			
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
+		
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 		<fillPercent>0.5</fillPercent>
@@ -102,14 +110,16 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(2,2)</size>
+		
 		<building>
 			<isInert>true</isInert>
 		</building>
+		
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>AP_ThreeTieredFountain</defName>
 		<label>three-tiered fountain</label>
-		<description>todo.</description>
+		<description>An ornamental water feature designed to enhance aesthetic appeal in gardens and public spaces.</description>
 		<graphicData>
 			<texPath>Things/Building/ParkProps/Fountains/AP_ThreeTieredFountain/AP_ThreeTieredFountain</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -119,9 +129,11 @@
 				<volume>(2, 2, 3)</volume>
 			</shadowData>
 			<color>(194,179,165)</color>
+			
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<tickerType>Normal</tickerType>
+	
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 		<fillPercent>0.5</fillPercent>
@@ -133,6 +145,7 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(3,3)</size>
+		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -157,7 +170,7 @@
 	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>AP_HexagonalFountain</defName>
 		<label>hexagonal fountain</label>
-		<description>todo.</description>
+		<description>An ornamental water feature designed to enhance aesthetic appeal in gardens and public spaces.</description>
 		<graphicData>
 			<texPath>Things/Building/ParkProps/Fountains/AP_HexagonalFountain/AP_HexagonalFountain</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -167,9 +180,11 @@
 				<volume>(1.5, 1.5, 1)</volume>
 			</shadowData>
 			<color>(132, 135, 132)</color>
+			
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<tickerType>Normal</tickerType>
+	
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 		<fillPercent>0.5</fillPercent>
@@ -181,6 +196,7 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(3,3)</size>
+		
 		<building>
 			<isInert>true</isInert>
 		</building>
@@ -190,12 +206,13 @@
 				<emissionInterval>60</emissionInterval>
 				<offset>(0,0,2.5)</offset>
 			</li>
+			
 		</comps>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>AP_ArabicFountain</defName>
 		<label>arabic fountain</label>
-		<description>todo.</description>
+		<description>An ornamental water feature designed to enhance aesthetic appeal in gardens and public spaces.</description>
 		<graphicData>
 			<texPath>Things/Building/ParkProps/Fountains/AP_ArabicFountain/AP_ArabicFountain</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -205,8 +222,10 @@
 				<volume>(2, 2, 1)</volume>
 			</shadowData>
 			<color>(126, 104, 94)</color>
+			
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
+		
 		<passability>PassThroughOnly</passability>
 		<pathCost>50</pathCost>
 		<fillPercent>0.5</fillPercent>
@@ -218,9 +237,53 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(4,4)</size>
+		
 		<building>
 			<isInert>true</isInert>
 		</building>
+		
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>AP_ZenFountain</defName>
+		<label>zen fountain</label>
+		<description>An ornamental water feature designed to enhance aesthetic appeal in gardens and public spaces.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Fountains/AP_ZenFountain/AP_ZenFountain</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(4,4)</drawSize>
+			<shadowData>
+				<volume>(1.5, 1.5, 1)</volume>
+			</shadowData>
+			<color>(132, 135, 132)</color>
+			
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<tickerType>Normal</tickerType>
+	
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.5</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>50</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(3,3)</size>
+		
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<comps>
+			<li Class="CompProperties_FleckEmitter">
+				<fleck>AP_WaterSproutLateral_Fleck</fleck>
+				<emissionInterval>60</emissionInterval>
+				<offset>(-0.1,0,1.1)</offset>
+			</li>
+			
+		</comps>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>AP_LoopBollard</defName>
@@ -705,6 +768,93 @@
 		<uiIconScale>1</uiIconScale>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_LamplightC</defName>
+		<label>street light</label>
+		<description>A fancy street light. Non-functional, only for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Furniture/VFEPD_AP_LamplightC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>4</drawSize>
+			<color>(105,105,105)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_LamplightD</defName>
+		<label>street light</label>
+		<description>A fancy street light. Non-functional, only for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Furniture/VFEPD_AP_LamplightD</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>4</drawSize>
+			<color>(105,105,105)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_LamplightE</defName>
+		<label>street light</label>
+		<description>A fancy street light. Non-functional, only for decorative purposes.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Furniture/VFEPD_AP_LamplightE</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>4</drawSize>
+			<color>(105,105,105)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_AP_MantelpieceA</defName>
 		<label>tablecloth</label>
 		<description>A tablecloth to cover 1x2 tables.</description>
@@ -942,6 +1092,35 @@
 		<uiIconScale>1</uiIconScale>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_SimpleParkBench</defName>
+		<label>park bench</label>
+		<description>A simple park bench. You can't sit in it because... it has just been... uh, recently painted. Look, it's decorative, that's all.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Furniture/VFEPD_AP_SimpleParkBench</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<color>(133,97,67)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_AP_Slide</defName>
 		<label>park slide</label>
 		<description>A park slide</description>
@@ -980,6 +1159,7 @@
 			<drawSize>(4,4)</drawSize>
 			<color>(133,97,67)</color>
 		</graphicData>
+		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>0</pathCost>
@@ -997,6 +1177,35 @@
 			<Flammability>0.1</Flammability>
 		</statBases>
 		<size>(4,3)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>AP_WheelbarrowWithFlowers</defName>
+		<label>wheelbarrow with flowers</label>
+		<description>A wooden wheelbarrow filled with decorative, fake flowers.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Furniture/AP_WheelbarrowWithFlowers</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+			<color>(133,97,67)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
 		<uiIconScale>1</uiIconScale>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
@@ -1094,7 +1303,7 @@
 		<label>tea nettle</label>
 		<description>A fake decorative tea nettle flower. Made of plastic, so it doesn't need any gardening maintenance. Can't be painted different colours.</description>
 		<graphicData>
-			<texPath>Things/Building/ParkProps/Flowers/AP_DecorativeTeaNettle</texPath>
+			<texPath>Things/Building/ParkProps/Flowers/AP_TeaNettle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1.25,1.25)</drawSize>
 			<drawOffset>(0,0,0.4)</drawOffset>
@@ -2231,10 +2440,100 @@
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>AP_PlanterShelves</defName>
-		<label>park bench</label>
-		<description>An elegant park bench. You can't sit in it because... it has just been... uh, recently painted. Look, it's decorative, that's all.</description>
+		<label>shelf planter</label>
+		<description>Two stacked shelves with some empty planters.</description>
 		<graphicData>
 			<texPath>Things/Building/ParkProps/Planters/AP_PlanterShelves</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,3)</drawSize>
+			<color>(133,97,67)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>AP_PlanterShelvesB</defName>
+		<label>shelf planter</label>
+		<description>Two stacked shelves with some planters filled with decorative fake flowers.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/AP_PlanterShelvesB</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,3)</drawSize>
+			<color>(133,97,67)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>AP_PlanterShelvesC</defName>
+		<label>shelf planter</label>
+		<description>Two stacked shelves with some planters filled with decorative fake flowers.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/AP_PlanterShelvesC</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,3)</drawSize>
+			<color>(133,97,67)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>AP_PlanterShelvesD</defName>
+		<label>shelf planter</label>
+		<description>Two stacked shelves with some planters filled with decorative fake flowers.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/AP_PlanterShelvesD</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(3,3)</drawSize>
@@ -2656,6 +2955,33 @@
 		</building>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>AP_FlatTilesWithGrassPlanter</defName>
+		<label>flat tile planter with grass</label>
+		<description>A small planter made of flat stone tiles, filled with grass.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/AP_FlatTilesWithGrassPlanter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.25</drawSize>
+			<color>(132, 135, 132)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>false</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_AP_SmallWoodenPlanter</defName>
 		<label>small wooden planter with soil</label>
 		<description>A small planter made of wooden planks, filled with soil.</description>
@@ -2790,6 +3116,33 @@
 			<isInert>true</isInert>
 		</building>
 	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_WideTilePlanter_Sand</defName>
+		<label>wide tile planter with sand</label>
+		<description>A planter made of stone tiles, filled with sand.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/VFEPD_AP_WideTilePlanter_Sand</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>3</drawSize>
+			<color>(132, 135, 132)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>true</rotatable>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+		</building>
+	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>VFEPD_AP_PottedPlantA</defName>
 		<label>leafarium</label>
@@ -2856,6 +3209,96 @@
 		<description>A fake decorative potted green plant. Made of plastic, so it doesn't need any gardening maintenance.</description>
 		<graphicData>
 			<texPath>Things/Building/ParkProps/Plants/VFEPD_AP_PottedPlantC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>3</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>15</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AP_PottedPlantD</defName>
+		<label>foliadome</label>
+		<description>A fake decorative potted green plant. Made of plastic, so it doesn't need any gardening maintenance.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Plants/VFEPD_AP_PottedPlantD</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>3</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>15</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AP_PottedPlantE</defName>
+		<label>whimsifolia</label>
+		<description>A fake decorative potted green plant. Made of plastic, so it doesn't need any gardening maintenance.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Plants/VFEPD_AP_PottedPlantE</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>3</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>Standable</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>15</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>VFEPD_AP_PottedPlantF</defName>
+		<label>everlume</label>
+		<description>A fake decorative potted green plant. Made of plastic, so it doesn't need any gardening maintenance.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Plants/VFEPD_AP_PottedPlantF</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>3</drawSize>
 			<drawOffset>(0,0,0.2)</drawOffset>
@@ -3337,5 +3780,214 @@
 			<isEdifice>false</isEdifice>
 		</building>
 		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_WaterReed</defName>
+		<label>water reeds</label>
+		<description>Decorative water reeds. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/WaterStuff/VFEPD_AP_Reeds</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>4</drawSize>
+			
+		</graphicData>
+		<terrainAffordanceNeeded/>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.1</fillPercent>
+		<pathCost>15</pathCost>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_Pier</defName>
+		<label>pier</label>
+		<description>A decorative wooden pier. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/WaterStuff/AP_Pier</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<color>(133,97,67)</color>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<terrainAffordanceNeeded/>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(4,3)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>AP_WaterFountainA</defName>
+		<label>water fountain</label>
+		<description>An ornamental water feature designed to enhance aesthetic appeal in gardens and public spaces. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Fountains/AP_WaterFountainA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			
+			<drawSize>(2,2)</drawSize>			
+			<color>(194,179,165)</color>			
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<tickerType>Normal</tickerType>
+		<terrainAffordanceNeeded/>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.5</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>50</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<comps>
+			<li Class="CompProperties_FleckEmitter">
+				<fleck>AP_WaterSprout_FleckLarge</fleck>
+				<emissionInterval>60</emissionInterval>
+				<offset>(0,0,.65)</offset>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>AP_WaterFountainB</defName>
+		<label>water fountain</label>
+		<description>An ornamental water feature designed to enhance aesthetic appeal in gardens and public spaces. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Fountains/AP_WaterFountainB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		
+			<drawSize>(2,2)</drawSize>			
+			<color>(194,179,165)</color>			
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<tickerType>Normal</tickerType>
+		<terrainAffordanceNeeded/>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.5</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>50</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<comps>
+			<li Class="CompProperties_FleckEmitter">
+				<fleck>AP_WaterSprout_FleckLarge</fleck>
+				<emissionInterval>60</emissionInterval>
+				<offset>(0,0,1)</offset>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>AP_WaterFountainC</defName>
+		<label>water fountain</label>
+		<description>An ornamental water feature designed to enhance aesthetic appeal in gardens and public spaces. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Fountains/AP_WaterFountainC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			
+			<drawSize>(2,2)</drawSize>			
+			<color>(194,179,165)</color>			
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<tickerType>Normal</tickerType>
+		<terrainAffordanceNeeded/>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.5</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>50</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<comps>
+			<li Class="CompProperties_FleckEmitter">
+				<fleck>AP_WaterSprout_FleckLarge</fleck>
+				<emissionInterval>60</emissionInterval>
+				<offset>(0,0,1)</offset>
+			</li>
+		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>AP_WaterFountainD</defName>
+		<label>water fountain</label>
+		<description>An ornamental water feature designed to enhance aesthetic appeal in gardens and public spaces. Intended to be placed over water. Or wherever you want, I'm not your mom!</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Fountains/AP_WaterFountainD</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		
+			<drawSize>(2,2)</drawSize>			
+			<color>(194,179,165)</color>			
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<tickerType>Normal</tickerType>
+		<terrainAffordanceNeeded/>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.5</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>50</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		
+		<building>
+			<isInert>true</isInert>
+		</building>
+		<comps>
+			<li Class="CompProperties_FleckEmitter">
+				<fleck>AP_WaterSprout_FleckLarge</fleck>
+				<emissionInterval>60</emissionInterval>
+				<offset>(0,0,1.1)</offset>
+			</li>
+		</comps>
 	</ThingDef>
 </Defs>

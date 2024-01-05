@@ -49,7 +49,7 @@
 		<defName>AP_CheckeredLawn</defName>
 		<label>checkered lawn</label>
 		<renderPrecedence>230</renderPrecedence>
-		<description>todo.</description>
+		<description>A checkered lawn floor, purely aesthetic.</description>
 		<texturePath>Terrain/Surfaces/AP_CheckeredLawn</texturePath>
 		<statBases>
 			<WorkToBuild>500</WorkToBuild>
@@ -60,7 +60,7 @@
 		<defName>AP_CircularLawn</defName>
 		<label>circular lawn</label>
 		<renderPrecedence>230</renderPrecedence>
-		<description>todo.</description>
+		<description>A circular pattern lawn floor, purely aesthetic.</description>
 		<texturePath>Terrain/Surfaces/AP_CircularLawn</texturePath>
 		<statBases>
 			<WorkToBuild>500</WorkToBuild>
@@ -86,7 +86,7 @@
 		<label>pool border</label>
 		<edgeType>Hard</edgeType>
 		<renderPrecedence>230</renderPrecedence>
-		<description>todo.</description>
+		<description>Pool border tiles that can be tinted different colours. Used to create decorative pools and fountains. Purely aesthetic.</description>
 		<texturePath>Terrain/Surfaces/AP_PoolBorderTiles</texturePath>
 		<statBases>
 			<WorkToBuild>500</WorkToBuild>
@@ -97,7 +97,7 @@
 		<defName>AP_ZenSand</defName>
 		<label>zen sand</label>
 		<renderPrecedence>230</renderPrecedence>
-		<description>todo.</description>
+		<description>Sand decorated with raked patterns. Purely aesthetic.</description>
 		<texturePath>Terrain/Surfaces/AP_ZenSand</texturePath>
 		<statBases>
 			<WorkToBuild>500</WorkToBuild>

@@ -710,6 +710,36 @@
 		<uiIconScale>1</uiIconScale>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_HedgeArchway</defName>
+		<label>hedge archway</label>
+		<description>A hedge arch intended to be placed between two hedge pieces. Or put it wherever, but it will look like ass.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Plants/AP_HedgeArchway</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			
+			<drawSize>(3,2)</drawSize>
+			
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,2)</size>
+		<uiIconScale>1</uiIconScale>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
 		<defName>VFEPD_AP_LamplightA</defName>
 		<label>street light</label>
 		<description>A fancy street light. Non-functional, only for decorative purposes.</description>
@@ -1100,6 +1130,35 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2,2)</drawSize>
 			<color>(133,97,67)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>AP_StoneBench</defName>
+		<label>stone bench</label>
+		<description>A simple stone bench. You can't sit in it because... it has just been... uh, recently painted. Look, it's decorative, that's all.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Furniture/AP_StoneBench</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<color>(132, 135, 132)</color>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -3989,5 +4048,334 @@
 				<offset>(0,0,1.1)</offset>
 			</li>
 		</comps>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>AP_EmptyTrough</defName>
+		<label>empty trough</label>
+		<description>An empty decorative trough.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/AP_EmptyTrough</texPath>
+			<graphicClass>Graphic_Single</graphicClass>	
+			<drawSize>(2,2)</drawSize>
+			<color>(133,97,67)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<rotatable>false</rotatable>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>AP_TroughWithHay</defName>
+		<label>trough with hay</label>
+		<description>An decorative trough filled with plastic hay.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/AP_TroughWithHay</texPath>
+			<graphicClass>Graphic_Single</graphicClass>	
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+			<color>(133,97,67)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<rotatable>false</rotatable>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>AP_TroughWithFlowersA</defName>
+		<label>trough with flowers</label>
+		<description>An decorative trough filled with plastic flowers.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/AP_TroughWithFlowersA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>	
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+			<color>(133,97,67)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<rotatable>false</rotatable>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>AP_TroughWithFlowersB</defName>
+		<label>trough with flowers</label>
+		<description>An decorative trough filled with plastic flowers.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/AP_TroughWithFlowersB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>	
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+			<color>(133,97,67)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<rotatable>false</rotatable>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>AP_TroughWithFlowersC</defName>
+		<label>trough with flowers</label>
+		<description>An decorative trough filled with plastic flowers.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Planters/AP_TroughWithFlowersC</texPath>
+			<graphicClass>Graphic_Single</graphicClass>	
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+			<color>(133,97,67)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>42</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<rotatable>false</rotatable>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0.5</fillPercent>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>0.1</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>AP_PicnicBasket</defName>
+		<label>picnic basket</label>
+		<description>A decorative picnic basket. No food inside.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Furniture/AP_PicnicBasket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>	
+			
+			<drawSize>(1,1)</drawSize>
+			<color>(219,165,99)</color>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>15</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<rotatable>false</rotatable>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0.1</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>VFEPD_AP_WateringCan</defName>
+		<label>watering can</label>
+		<description>A decorative watering can.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Furniture/VFEPD_AP_WateringCan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>	
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1,1)</drawSize>
+			<color>(105,105,105)</color>
+		</graphicData>
+		<altitudeLayer>Item</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>15</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<rotatable>false</rotatable>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0.1</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>AP_PicnicMatA</defName>
+		<label>picnic mat</label>
+		<description>A decorative picnic mat. Ants not included.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Furniture/AP_PicnicMatA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>	
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,3)</drawSize>
+			<color>(99,153,186)</color>
+		</graphicData>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+	
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,3)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>AP_PicnicMatB</defName>
+		<label>picnic mat</label>
+		<description>A decorative picnic mat. Ants not included.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Furniture/AP_PicnicMatB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>	
+			
+			<drawSize>(3,3)</drawSize>
+			<color>(248,200,208)</color>
+		</graphicData>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>0</pathCost>
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+	
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(3,3)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>AP_OverheadTrellisColumn</defName>
+		<label>trellis column</label>
+		<description>A column designed to be placed underneath an overhead trellis to support it.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Furniture/AP_OverheadTrellisColumn</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>	
+			
+			<drawSize>(3,3)</drawSize>
+			<color>(164,124,55)</color>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+	
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0.1</fillPercent>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>1</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_ColourableFurnitureBase">
+		<defName>AP_OverheadTrellis</defName>
+		<label>overhead trellis</label>
+		<description>A wooden trellis supported by columns.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/Furniture/AP_OverheadTrellis</texPath>
+			<graphicClass>Graphic_Single</graphicClass>	
+			
+			<drawSize>(4,4)</drawSize>
+			<color>(164,124,55)</color>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<passability>Standable</passability>
+	
+		<building>
+			<isEdifice>false</isEdifice>
+			<isInert>true</isInert>
+		</building>
+		<rotatable>false</rotatable>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(4,4)</size>
+		<uiIconScale>1</uiIconScale>
 	</ThingDef>
 </Defs>

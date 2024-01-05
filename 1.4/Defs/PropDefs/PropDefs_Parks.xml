@@ -127,6 +127,12 @@
 		<prop>VFEPD_AP_DecorativeArch</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_HedgeArch</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>120.1</priority>
+		<prop>VFEPD_AP_HedgeArchway</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_LamplightA</defName>
 		<category>VFE_PropCategory_Park</category>
 		<priority>121</priority>
@@ -199,6 +205,18 @@
 		<prop>VFEPD_AP_WideTrellis_Roses</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_OverheadTrellisColumn</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>127.5</priority>
+		<prop>AP_OverheadTrellisColumn</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_OverheadTrellis</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>127.6</priority>
+		<prop>AP_OverheadTrellis</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_ParkBench</defName>
 		<category>VFE_PropCategory_Park</category>
 		<priority>128</priority>
@@ -209,6 +227,12 @@
 		<category>VFE_PropCategory_Park</category>
 		<priority>128.1</priority>
 		<prop>VFEPD_AP_SimpleParkBench</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_StoneBench</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>128.2</priority>
+		<prop>AP_StoneBench</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_Slide</defName>
@@ -491,6 +515,36 @@
 		<category>VFE_PropCategory_Park</category>
 		<priority>169.3</priority>
 		<prop>AP_PlanterShelvesD</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_EmptyTrough</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>169.4</priority>
+		<prop>AP_EmptyTrough</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_TroughWithHay</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>169.5</priority>
+		<prop>AP_TroughWithHay</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_TroughWithFlowersA</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>169.6</priority>
+		<prop>AP_TroughWithFlowersA</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_TroughWithFlowersB</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>169.7</priority>
+		<prop>AP_TroughWithFlowersB</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_TroughWithFlowersC</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>169.8</priority>
+		<prop>AP_TroughWithFlowersC</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_RusticBucket</defName>
@@ -780,4 +834,29 @@
 		<priority>213</priority>
 		<prop>AP_WaterFountainD</prop>
 	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_PicnicBasket</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>214</priority>
+		<prop>AP_PicnicBasket</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_WateringCan</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>215</priority>
+		<prop>VFEPD_AP_WateringCan</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_PicnicMatA</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>216</priority>
+		<prop>AP_PicnicMatA</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_PicnicMatB</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>217</priority>
+		<prop>AP_PicnicMatB</prop>
+	</VFEProps.PropDef>
+	
 </Defs>

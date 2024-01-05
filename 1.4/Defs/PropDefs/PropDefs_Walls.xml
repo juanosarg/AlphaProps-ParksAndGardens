@@ -21,5 +21,11 @@
 		<priority>3</priority>
 		<prop>AP_Hedge_FloweryTwo</prop>
 	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="AP_WallPropBase">
+		<defName>AP_Prop_Walls_4</defName>
+		<category>AP_PropCategory_Walls</category>
+		<priority>4</priority>
+		<prop>AP_LowHedge</prop>
+	</VFEProps.PropDef>
 	
 </Defs>

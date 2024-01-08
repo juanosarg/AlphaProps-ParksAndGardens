@@ -3360,7 +3360,7 @@
 			<texPath>Things/Building/ParkProps/Plants/VFEPD_AP_PottedPlantF</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>3</drawSize>
-			<drawOffset>(0,0,0.2)</drawOffset>
+			<drawOffset>(0,0,0.35)</drawOffset>
 		</graphicData>
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -4377,5 +4377,315 @@
 		</statBases>
 		<size>(4,4)</size>
 		<uiIconScale>1</uiIconScale>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_Inflorescenti</defName>
+		<label>inflorescenti</label>
+		<thingClass>VFEProps.Building_FakePlant5x5</thingClass>
+		<description>A fake small perennial wildflower.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/SmallFlowers/AP_Inflorescenti</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.4</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>5</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_MicroBlossom</defName>
+		<label>micro blossom</label>
+		<thingClass>VFEProps.Building_FakePlant5x5</thingClass>
+		<description>A fake small perennial wildflower.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/SmallFlowers/AP_MicroBlossom</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.4</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>5</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_MicroLily</defName>
+		<label>micro lily</label>
+		<thingClass>VFEProps.Building_FakePlant5x5</thingClass>
+		<description>A fake small perennial wildflower.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/SmallFlowers/AP_MicroLily</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.4</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>5</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_PetitePrimrose</defName>
+		<label>petite primrose</label>
+		<thingClass>VFEProps.Building_FakePlant5x5</thingClass>
+		<description>A fake small perennial wildflower.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/SmallFlowers/AP_PetitePrimrose</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.4</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>5</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_SpeckleDaisy</defName>
+		<label>speckle daisy</label>
+		<thingClass>VFEProps.Building_FakePlant5x5</thingClass>
+		<description>A fake small perennial wildflower.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/SmallFlowers/AP_SpeckleDaisy</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.4</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>5</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_Lilaclette</defName>
+		<label>lilaclette</label>
+		<thingClass>VFEProps.Building_FakePlant5x5</thingClass>
+		<description>A fake small perennial wildflower.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/SmallFlowers/AP_Lilaclette</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.4</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>5</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_Orchidlet</defName>
+		<label>orchidlet</label>
+		<thingClass>VFEProps.Building_FakePlant5x5</thingClass>
+		<description>A fake small perennial wildflower.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/SmallFlowers/AP_Orchidlet</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.4</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>5</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_PicoRose</defName>
+		<label>picorose</label>
+		<thingClass>VFEProps.Building_FakePlant5x5</thingClass>
+		<description>A fake small perennial wildflower.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/SmallFlowers/AP_PicoRose</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.4</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>5</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_NanoTulip</defName>
+		<label>nanotulip</label>
+		<thingClass>VFEProps.Building_FakePlant5x5</thingClass>
+		<description>A fake small perennial wildflower.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/SmallFlowers/AP_NanoTulip</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.4</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>5</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_Diminufloral</defName>
+		<label>diminufloral</label>
+		<thingClass>VFEProps.Building_FakePlant5x5</thingClass>
+		<description>A fake small perennial wildflower.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/SmallFlowers/AP_Diminufloral</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.4</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>5</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
 </Defs>

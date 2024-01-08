@@ -858,5 +858,64 @@
 		<priority>217</priority>
 		<prop>AP_PicnicMatB</prop>
 	</VFEProps.PropDef>
-	
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_Inflorescenti</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>218</priority>
+		<prop>AP_Inflorescenti</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_MicroBlossom</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>219</priority>
+		<prop>AP_MicroBlossom</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_MicroLily</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>220</priority>
+		<prop>AP_MicroLily</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_PetitePrimrose</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>221</priority>
+		<prop>AP_PetitePrimrose</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_SpeckleDaisy</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>222</priority>
+		<prop>AP_SpeckleDaisy</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_Lilaclette</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>223</priority>
+		<prop>AP_Lilaclette</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_Orchidlet</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>224</priority>
+		<prop>AP_Orchidlet</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_PicoRose</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>225</priority>
+		<prop>AP_PicoRose</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_NanoTulip</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>226</priority>
+		<prop>AP_NanoTulip</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_Diminufloral</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>227</priority>
+		<prop>AP_Diminufloral</prop>
+	</VFEProps.PropDef>
 </Defs>

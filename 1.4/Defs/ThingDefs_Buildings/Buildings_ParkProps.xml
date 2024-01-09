@@ -693,6 +693,7 @@
 		</graphicData>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<passability>PassThroughOnly</passability>
+		<rotatable>false</rotatable>
 		<pathCost>0</pathCost>
 		<building>
 			<isEdifice>false</isEdifice>
@@ -722,6 +723,7 @@
 		</graphicData>
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<passability>PassThroughOnly</passability>
+		<rotatable>false</rotatable>
 		<pathCost>0</pathCost>
 		<building>
 			<isEdifice>false</isEdifice>

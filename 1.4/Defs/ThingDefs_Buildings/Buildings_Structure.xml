@@ -13,8 +13,8 @@
       <graphicClass>Graphic_Single</graphicClass>
       <linkType>CornerFiller</linkType>
       <linkFlags>
-        <li>Wall</li>
-        <li>Rock</li>
+        <li>Sandbags</li>
+      
       </linkFlags>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
@@ -92,8 +92,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <linkType>CornerFiller</linkType>
       <linkFlags>
-        <li>Wall</li>
-        <li>Rock</li>
+         <li>Sandbags</li>
       </linkFlags>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
@@ -170,8 +169,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <linkType>CornerFiller</linkType>
       <linkFlags>
-        <li>Wall</li>
-        <li>Rock</li>
+         <li>Sandbags</li>
       </linkFlags>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
@@ -249,8 +247,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <linkType>CornerFiller</linkType>
       <linkFlags>
-        <li>Wall</li>
-        <li>Rock</li>
+          <li>Sandbags</li>
       </linkFlags>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>

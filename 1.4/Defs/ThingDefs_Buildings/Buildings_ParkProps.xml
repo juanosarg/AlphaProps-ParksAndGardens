@@ -28,7 +28,7 @@
 			<Mass>50</Mass>
 			<Flammability>0</Flammability>
 		</statBases>
-		<size>(2,2)</size>
+		<size>(3,3)</size>
 		
 		<building>
 			<isInert>true</isInert>
@@ -129,7 +129,7 @@
 				<volume>(2, 2, 3)</volume>
 			</shadowData>
 			<color>(194,179,165)</color>
-			
+			<drawOffset>(0,0,0.5)</drawOffset>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<tickerType>Normal</tickerType>
@@ -153,17 +153,17 @@
 			<li Class="CompProperties_FleckEmitter">
 				<fleck>AP_WaterSprout_FleckLarge</fleck>
 				<emissionInterval>60</emissionInterval>
-				<offset>(0,0,2.5)</offset>
+				<offset>(0,0,3)</offset>
 			</li>
 			<li Class="CompProperties_FleckEmitter">
 				<fleck>AP_SmallWaterSproutAnimated_Fleck</fleck>
 				<emissionInterval>60</emissionInterval>
-				<offset>(1,0,0)</offset>
+				<offset>(1,0,0.5)</offset>
 			</li>
 			<li Class="CompProperties_FleckEmitter">
 				<fleck>AP_SmallWaterSproutAnimatedInverted_Fleck</fleck>
 				<emissionInterval>60</emissionInterval>
-				<offset>(-1,0,0)</offset>
+				<offset>(-1,0,0.5)</offset>
 			</li>
 		</comps>
 	</ThingDef>
@@ -180,7 +180,7 @@
 				<volume>(1.5, 1.5, 1)</volume>
 			</shadowData>
 			<color>(132, 135, 132)</color>
-			
+			<drawOffset>(0,0,0.75)</drawOffset>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<tickerType>Normal</tickerType>
@@ -204,7 +204,7 @@
 			<li Class="CompProperties_FleckEmitter">
 				<fleck>AP_TallWaterSprout_Fleck</fleck>
 				<emissionInterval>60</emissionInterval>
-				<offset>(0,0,2.5)</offset>
+				<offset>(0,0,3.25)</offset>
 			</li>
 			
 		</comps>
@@ -256,7 +256,7 @@
 				<volume>(1.5, 1.5, 1)</volume>
 			</shadowData>
 			<color>(132, 135, 132)</color>
-			
+			<drawOffset>(0,0,0.25)</drawOffset>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<tickerType>Normal</tickerType>
@@ -4057,7 +4057,7 @@
 		<description>An empty decorative trough.</description>
 		<graphicData>
 			<texPath>Things/Building/ParkProps/Planters/AP_EmptyTrough</texPath>
-			<graphicClass>Graphic_Single</graphicClass>	
+			<graphicClass>Graphic_Multi</graphicClass>	
 			<drawSize>(2,2)</drawSize>
 			<color>(133,97,67)</color>
 		</graphicData>
@@ -4068,7 +4068,7 @@
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
-		<rotatable>false</rotatable>
+	
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>0.5</fillPercent>
 		<statBases>
@@ -4086,7 +4086,7 @@
 		<description>An decorative trough filled with plastic hay.</description>
 		<graphicData>
 			<texPath>Things/Building/ParkProps/Planters/AP_TroughWithHay</texPath>
-			<graphicClass>Graphic_Single</graphicClass>	
+			<graphicClass>Graphic_Multi</graphicClass>	
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
 			<color>(133,97,67)</color>
@@ -4098,7 +4098,7 @@
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
-		<rotatable>false</rotatable>
+		
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>0.5</fillPercent>
 		<statBases>
@@ -4116,7 +4116,7 @@
 		<description>An decorative trough filled with plastic flowers.</description>
 		<graphicData>
 			<texPath>Things/Building/ParkProps/Planters/AP_TroughWithFlowersA</texPath>
-			<graphicClass>Graphic_Single</graphicClass>	
+			<graphicClass>Graphic_Multi</graphicClass>	
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
 			<color>(133,97,67)</color>
@@ -4128,7 +4128,7 @@
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
-		<rotatable>false</rotatable>
+	
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>0.5</fillPercent>
 		<statBases>
@@ -4146,7 +4146,7 @@
 		<description>An decorative trough filled with plastic flowers.</description>
 		<graphicData>
 			<texPath>Things/Building/ParkProps/Planters/AP_TroughWithFlowersB</texPath>
-			<graphicClass>Graphic_Single</graphicClass>	
+			<graphicClass>Graphic_Multi</graphicClass>	
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
 			<color>(133,97,67)</color>
@@ -4158,7 +4158,7 @@
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
-		<rotatable>false</rotatable>
+	
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>0.5</fillPercent>
 		<statBases>
@@ -4176,7 +4176,7 @@
 		<description>An decorative trough filled with plastic flowers.</description>
 		<graphicData>
 			<texPath>Things/Building/ParkProps/Planters/AP_TroughWithFlowersC</texPath>
-			<graphicClass>Graphic_Single</graphicClass>	
+			<graphicClass>Graphic_Multi</graphicClass>	
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(2,2)</drawSize>
 			<color>(133,97,67)</color>
@@ -4188,7 +4188,7 @@
 			<isEdifice>false</isEdifice>
 			<isInert>true</isInert>
 		</building>
-		<rotatable>false</rotatable>
+	
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>0.5</fillPercent>
 		<statBases>

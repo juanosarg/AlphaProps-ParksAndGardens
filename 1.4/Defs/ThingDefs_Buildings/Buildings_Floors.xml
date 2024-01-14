@@ -19,8 +19,8 @@
 		<edgeType>FadeRough</edgeType>
 	</TerrainDef>
 	<TerrainDef Abstract="True" Name="AProps_ShallowWaterBase">
-		
-		<fertility>0</fertility>		
+		<layerable>true</layerable>
+		<fertility>0</fertility>
 		<holdSnow>false</holdSnow>
 		<takeSplashes>true</takeSplashes>
 		<extinguishesFire>true</extinguishesFire>
@@ -31,6 +31,9 @@
 		<filthAcceptanceMask>
 			<li>None</li>
 		</filthAcceptanceMask>
+		<affordances>
+			<li>Bridgeable</li>
+		</affordances>
 		<tags>
 			<li>AP_Water</li>
 		</tags>

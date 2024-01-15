@@ -4,6 +4,12 @@
 		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef ParentName="AP_FloorPropBase">
+		<defName>AP_Prop_Floors_Lawn</defName>
+		<category>AP_PropCategory_Floors</category>
+		<priority>0</priority>
+		<prop>AP_Lawn</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef ParentName="AP_FloorPropBase">
 		<defName>AP_Prop_Floors_1</defName>
 		<category>AP_PropCategory_Floors</category>
 		<priority>1</priority>

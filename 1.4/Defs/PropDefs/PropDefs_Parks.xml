@@ -133,10 +133,29 @@
 		<prop>VFEPD_AP_HedgeArchway</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_HedgeArch_2Wide</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>120.2</priority>
+		<prop>VFEPD_AP_HedgeArchway_2Wide</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_HedgeArch_3Wide</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>120.3</priority>
+		<prop>VFEPD_AP_HedgeArchway_3Wide</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_LamplightA</defName>
 		<category>VFE_PropCategory_Park</category>
 		<priority>121</priority>
 		<prop>VFEPD_AP_LamplightA</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_LamplightA_Functional</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>121.5</priority>
+		<prop>VFEPD_AP_LamplightA_Functional</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_LamplightB</defName>
@@ -145,10 +164,24 @@
 		<prop>VFEPD_AP_LamplightB</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_LamplightB_Functional</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>122.05</priority>
+		<prop>VFEPD_AP_LamplightB_Functional</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_LamplightC</defName>
 		<category>VFE_PropCategory_Park</category>
 		<priority>122.1</priority>
 		<prop>VFEPD_AP_LamplightC</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_LamplightC_Functional</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>122.15</priority>
+		<prop>VFEPD_AP_LamplightC_Functional</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_LamplightD</defName>
@@ -157,10 +190,50 @@
 		<prop>VFEPD_AP_LamplightD</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_LamplightD_Functional</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>122.25</priority>
+		<prop>VFEPD_AP_LamplightD_Functional</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_LamplightE</defName>
 		<category>VFE_PropCategory_Park</category>
 		<priority>122.3</priority>
 		<prop>VFEPD_AP_LamplightE</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_LamplightE_Functional</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>122.35</priority>
+		<prop>VFEPD_AP_LamplightE_Functional</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_LamplightL</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>122.4</priority>
+		<prop>VFEPD_AP_LamplightL</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_LamplightL_Functional</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>122.45</priority>
+		<prop>VFEPD_AP_LamplightL_Functional</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_LamplightT</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>122.5</priority>
+		<prop>VFEPD_AP_LamplightT</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_LamplightT_Functional</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>122.55</priority>
+		<prop>VFEPD_AP_LamplightT_Functional</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_MantelpieceA</defName>
@@ -223,16 +296,35 @@
 		<prop>VFEPD_AP_ParkBench</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_ParkBench_Functional</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>128.05</priority>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+		<prop>VFEPD_AP_ParkBench_Functional</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_SimpleParkBench</defName>
 		<category>VFE_PropCategory_Park</category>
 		<priority>128.1</priority>
 		<prop>VFEPD_AP_SimpleParkBench</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_SimpleParkBench_Functional</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>128.15</priority>
+		<prop>VFEPD_AP_SimpleParkBench_Functional</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_StoneBench</defName>
 		<category>VFE_PropCategory_Park</category>
 		<priority>128.2</priority>
 		<prop>AP_StoneBench</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_StoneBench_Functional</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>128.25</priority>
+		<prop>VFEPD_AP_StoneBench_Functional</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_Slide</defName>
@@ -917,5 +1009,23 @@
 		<category>VFE_PropCategory_Park</category>
 		<priority>227</priority>
 		<prop>AP_Diminufloral</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_HedgeFlowers</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>500</priority>
+		<prop>AP_HedgeFlowers</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_HedgePinkFlowers</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>501</priority>
+		<prop>AP_HedgePinkFlowers</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_HedgeEyes</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>502</priority>
+		<prop>AP_HedgeEyes</prop>
 	</VFEProps.PropDef>
 </Defs>

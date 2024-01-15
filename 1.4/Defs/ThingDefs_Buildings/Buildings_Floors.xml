@@ -49,6 +49,17 @@
 		</tools>
 	</TerrainDef>
 	<TerrainDef ParentName="AProps_FloorBase">
+		<defName>AP_Lawn</defName>
+		<label>lawn</label>
+		<renderPrecedence>230</renderPrecedence>
+		<description>A lawn floor, purely aesthetic.</description>
+		<texturePath>Terrain/Surfaces/AP_Lawn</texturePath>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+		</statBases>
+		<designationHotKey>Misc5</designationHotKey>
+	</TerrainDef>
+	<TerrainDef ParentName="AProps_FloorBase">
 		<defName>AP_CheckeredLawn</defName>
 		<label>checkered lawn</label>
 		<renderPrecedence>230</renderPrecedence>

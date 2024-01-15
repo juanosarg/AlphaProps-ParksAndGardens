@@ -1011,6 +1011,24 @@
 		<prop>AP_Diminufloral</prop>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_Lilipollen</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>228</priority>
+		<prop>AP_Lilipollen</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_MiteMallow</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>229</priority>
+		<prop>AP_MiteMallow</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>AP_Prop_Park_PettiPansy</defName>
+		<category>VFE_PropCategory_Park</category>
+		<priority>230</priority>
+		<prop>AP_PettiPansy</prop>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_HedgeFlowers</defName>
 		<category>VFE_PropCategory_Park</category>
 		<priority>500</priority>

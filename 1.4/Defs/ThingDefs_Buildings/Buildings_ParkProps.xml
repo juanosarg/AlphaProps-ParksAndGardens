@@ -5241,6 +5241,99 @@
 		<clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_Lilipollen</defName>
+		<label>lilipollen</label>
+		<thingClass>VFEProps.Building_FakePlant5x5</thingClass>
+		<description>A fake small perennial wildflower.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/SmallFlowers/AP_Lilipollen</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.4</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>5</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_MiteMallow</defName>
+		<label>mitemallow</label>
+		<thingClass>VFEProps.Building_FakePlant5x5</thingClass>
+		<description>A fake small perennial wildflower.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/SmallFlowers/AP_MiteMallow</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.4</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>5</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
+		<defName>AP_PettiPansy</defName>
+		<label>pettipansy</label>
+		<thingClass>VFEProps.Building_FakePlant5x5</thingClass>
+		<description>A fake small perennial wildflower.</description>
+		<graphicData>
+			<texPath>Things/Building/ParkProps/SmallFlowers/AP_PettiPansy</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>0.4</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>5</pathCost>
+		<fillPercent>0.25</fillPercent>
+		<filthLeaving Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<WorkToBuild>0</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconScale>1</uiIconScale>
+		<building>
+			<isInert>true</isInert>
+			<isEdifice>false</isEdifice>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
 		<defName>AP_HedgeFlowers</defName>
 		<label>hedge flowers</label>
 		

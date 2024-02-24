@@ -8,6 +8,7 @@
 		<tags>
 			<li>Floor</li>
 		</tags>
+		<isPaintable>true</isPaintable>
 		<fertility>0</fertility>
 		<constructEffect>ConstructDirt</constructEffect>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
@@ -22,6 +23,7 @@
 		<layerable>true</layerable>
 		<fertility>0</fertility>
 		<holdSnow>false</holdSnow>
+		<isPaintable>true</isPaintable>
 		<takeSplashes>true</takeSplashes>
 		<extinguishesFire>true</extinguishesFire>
 		<extraDeteriorationFactor>2</extraDeteriorationFactor>

@@ -311,6 +311,7 @@
 	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_SimpleParkBench_Functional</defName>
 		<category>VFE_PropCategory_Park</category>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
 		<priority>128.15</priority>
 		<prop>VFEPD_AP_SimpleParkBench_Functional</prop>
 	</VFEProps.PropDef>
@@ -323,6 +324,7 @@
 	<VFEProps.PropDef>
 		<defName>AP_Prop_Park_StoneBench_Functional</defName>
 		<category>VFE_PropCategory_Park</category>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
 		<priority>128.25</priority>
 		<prop>VFEPD_AP_StoneBench_Functional</prop>
 	</VFEProps.PropDef>

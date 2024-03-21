@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaProps\1.5\Assemblies\AlphaProps.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaProps\1.5\Source\AlphaProps\AlphaProps\obj\Debug\AlphaProps.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaProps\1.5\Source\AlphaProps\AlphaProps\obj\Debug\AlphaProps.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaProps\1.5\Source\AlphaProps\AlphaProps\obj\Debug\AlphaProps.dll

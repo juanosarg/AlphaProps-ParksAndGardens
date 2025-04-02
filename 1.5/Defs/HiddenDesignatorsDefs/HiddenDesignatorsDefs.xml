@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<VFEProps.HiddenDesignatorsDef>
+	<VanillaFurnitureExpanded.HiddenDesignatorsDef>
 		<defName>AProps_HiddenDesignators</defName>
 		<hiddenDesignators>			
 			
@@ -28,7 +28,7 @@
 			<li>VFEPD_AP_StoneBench_Functional</li>
 			
 		</hiddenDesignators>							
-	</VFEProps.HiddenDesignatorsDef>
+	</VanillaFurnitureExpanded.HiddenDesignatorsDef>
 
 
 

@@ -22,7 +22,7 @@
 	<TerrainDef Abstract="True" Name="AProps_ShallowWaterBase">
 		<layerable>true</layerable>
 		<fertility>0</fertility>
-		<holdSnow>false</holdSnow>
+		 <holdSnowOrSand>false</holdSnowOrSand>
 		<isPaintable>true</isPaintable>
 		<takeSplashes>true</takeSplashes>
 		<extinguishesFire>true</extinguishesFire>

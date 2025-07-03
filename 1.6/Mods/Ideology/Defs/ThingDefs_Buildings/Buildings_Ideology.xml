@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>AP_Hedge_Anima</defName>
-		<label>anima hedge</label>
+		<defName>AP_Hedge_Gau</defName>
+		<label>gauranlen hedge</label>
 		<description>An impassable hedge. Can't hold roofs.</description>
 		<graphicData>
-			<texPath>Things/Building/Linked/AP_AnimaHedge_Atlas</texPath>
+			<texPath>Things/Building/Linked/AP_GauHedge_Atlas</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<linkType>CornerFiller</linkType>
 			<linkFlags>
@@ -22,7 +22,7 @@
 				<edgeRight>Damage/Edge</edgeRight>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Building/Linked/AP_AnimaHedgeWallIcon</uiIconPath>
+		<uiIconPath>Things/Building/Linked/AP_GauHedgeWallIcon</uiIconPath>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<WorkToBuild>135</WorkToBuild>
@@ -39,7 +39,7 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<coversFloor>true</coversFloor>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
+		 <drawStyleCategory>Walls</drawStyleCategory>
 		<tickerType>Never</tickerType>
 		<rotatable>false</rotatable>
 		<selectable>true</selectable>
@@ -74,12 +74,12 @@
 		<designationHotKey>Misc3</designationHotKey>
 	</ThingDef>
 	<ThingDef ParentName="VFEPD_NonColourableFurnitureBase">
-		<defName>AP_AnimaPearls</defName>
-		<label>anima pearls</label>
+		<defName>AP_GauMiniPods</defName>
+		<label>mini gauranlen pods</label>
 		
-		<description>Small, fake anima pearls. Intended to be placed on top of hedges.</description>
+		<description>Small, fake gauranlen pods. Intended to be placed on top of hedges.</description>
 		<graphicData>
-			<texPath>Things/Building/ParkProps/HedgePlants/AP_AnimaPearls</texPath>
+			<texPath>Things/Building/ParkProps/HedgePlants/AP_GauMiniPods</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<drawSize>1</drawSize>
 		
